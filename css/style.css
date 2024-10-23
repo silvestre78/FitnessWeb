@@ -1,0 +1,25 @@
+header nav ul li a {
+    text-decoration: none;
+}
+header nav ul li {
+    list-style: none;
+}
+.img-carrousel {
+    text-align: center;
+}
+#menu {
+    margin-top: 50%;
+}
+@media screen and (max-width: 2490px) {
+    #menu-responsive{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    #menu-responsive{
+        display: block;
+    }
+    #menu-escala {
+        display: none;
+    }
+}
